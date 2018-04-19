@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/commonLayoutViewTheme"
+    android:orientation="vertical">
+    <include layout="@layout/activity_common_header" />
+    <View style="@style/commonHorizontalViewBlueTheme" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/context_bg"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/rl_setting_sound"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_item_text"
+                android:padding="4dp">
+
+                <TextView
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_centerVertical="true"
+                    android:text="声音" />
+
+                <cn.jcex.view.CheckSwitchButton
+                    android:id="@+id/chkBtn_setting_sound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:checked="false"
+                    android:enabled="true" />
+            </RelativeLayout>
+
+            <View style="@style/commonHorizontalViewTheme" />
+
+            <!--振动-->
+            <RelativeLayout
+                android:id="@+id/rl_setting_vibration"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_item_text"
+                android:padding="4dp">
+
+                <TextView
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_centerVertical="true"
+                    android:text="振动" />
+
+                <cn.jcex.view.CheckSwitchButton
+                    android:id="@+id/chkBtn_setting_vibration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:checked="false"
+                    android:enabled="true" />
+            </RelativeLayout>
+
+            <View style="@style/commonHorizontalViewTheme" />
+
+            <!-- 意见反馈 -->
+            <RelativeLayout
+                android:id="@+id/rl_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_item_text"
+                android:padding="6dp">
+
+                <TextView
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_centerVertical="true"
+                    android:text="意见反馈" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@mipmap/mine_go" />
+            </RelativeLayout>
+
+            <View style="@style/commonHorizontalViewTheme" />
+    <!-- 版本 -->
+            <RelativeLayout
+                android:id="@+id/rl_version"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_item_text"
+                android:padding="6dp">
+
+                <TextView
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_centerVertical="true"
+                    android:text="版本介绍" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@mipmap/mine_go" />
+            </RelativeLayout>
+            <View style="@style/commonHorizontalViewTheme" />
+    <!-- 关于 -->
+            <RelativeLayout
+                android:id="@+id/rl_setting_about"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_item_text"
+                android:padding="6dp">
+
+                <TextView
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_centerVertical="true"
+                    android:text="关于佳成国际" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:src="@mipmap/mine_go" />
+            </RelativeLayout>
+            <View style="@style/commonHorizontalViewTheme" />
+
+            <!-- 注销登录 -->
+            <Button
+                android:id="@+id/btn_setting_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/sl_common_btn_grey"
+                android:padding="4dp"
+                android:text="退出登录"
+                android:textColor="@color/word_red"
+                android:textSize="@dimen/word_them_ordinary" />
+    </LinearLayout>
+</LinearLayout>

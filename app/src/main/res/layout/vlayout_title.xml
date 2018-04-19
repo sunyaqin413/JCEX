@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:gravity="center_vertical">
+    <!--  扫一扫 -->
+
+    <ImageView
+        android:id="@+id/iv_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/btn_home_scan" />
+
+
+    <!--  搜索 -->
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+         android:layout_weight="1"
+      android:layout_marginLeft="30dp"
+        android:background="@drawable/bg_search_normal"
+        android:cursorVisible="false"
+        android:drawableLeft="@mipmap/icon_home_search"
+        android:drawablePadding="4dp"
+        android:hint="请输入单号查询物流信息"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/word_orange"
+        android:textSize="@dimen/word_them_ordinary" />
+
+    <!--  消息 -->
+    <ImageView
+        android:id="@+id/iv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:src="@mipmap/btn_home_notice" />
+    </LinearLayout>
+</RelativeLayout>

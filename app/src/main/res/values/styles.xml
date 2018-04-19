@@ -1,0 +1,132 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--共同的 界面的全体共同 view styles-->
+    <style name="commonLayoutViewTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/content_bg_while</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:clipToPadding">false</item>
+        <!-- <item name="android:paddingTop">16dp</item>-->
+    </style>
+    <!--共同的 水平线 灰色 view styles-->
+    <style name="commonHorizontalViewTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line_grey</item>
+    </style>
+    <!--共同的 水平线 蓝色 view styles-->
+    <style name="commonHorizontalViewBlueTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/line_grey</item>
+    </style>
+    <style name="mineOrderEditLvTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/context_bg</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <!-- 14sp黑色字体 textView-->
+    <style name="OrdinaryBlackTextTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/word_them_ordinary</item>
+        <item name="android:textColor">@color/word_black</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="SubTitleBlackTextTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/word_sub_title</item>
+        <item name="android:textColor">@color/word_black</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <!--填写的textview-->
+    <style name="mineCreateTextTheme01">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textSize">@dimen/word_them_ordinary</item>
+        <item name="android:layout_centerInParent">true</item>
+    <item name="android:layout_marginLeft">10dp</item>
+    <item name="android:singleLine">true</item>
+    <item name="android:textColor">@color/word_grey</item>
+    </style>
+    <!--editText-->
+    <style name="mineCommonEditTextTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:textColor">@color/word_black</item>
+        <item name="android:layout_marginLeft">120dp</item>
+        <item name="android:textSize">@dimen/word_them_ordinary</item>
+        <item name="android:gravity">left|top</item>
+    </style>
+    <!--共同的提交按钮-->
+    <style name="CommonSubmitBtnTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:background">@drawable/bg_button_orange</item>
+        <item name="android:textColor">@color/word_white</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:textSize">@dimen/word_sub_title</item>
+    </style>
+    <!--共同的CheckBox样式-->
+    <style name="commonCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/sl_checkbox_style</item>
+    </style>
+    <!--共同的RadioButton样式-->
+    <style name="commonRadioButtonTheme" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">2dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">@dimen/word_them_least</item>
+        <item name="android:textColor">@drawable/text_color_button_grey_orange</item>
+    </style>
+    <!--SAlert样式-->
+    <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <style name="dialog_blue_button" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+    <style name="AnimFade2" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_to_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_to_right</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_from_left</item>
+    </style>
+    <style name="horizontal_slide" parent="android:Theme.NoTitleBar">
+        <item name="android:windowAnimationStyle">@style/AnimFade2</item>
+    </style>
+</resources>

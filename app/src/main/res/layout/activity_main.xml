@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/commonLayoutViewTheme"
+    android:orientation="vertical" >
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+    </FrameLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="@dimen/common_bottom_bar"
+       android:background="@color/context_bg"
+       android:orientation="vertical">
+    <RadioGroup
+        android:id="@+id/rg_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_fragment_home"
+            android:drawableTop="@drawable/sl_footer_main_home"
+            style="@style/commonRadioButtonTheme"
+            android:text="@string/main_home_page" />
+
+        <RadioButton
+            android:id="@+id/rb_fragment_join"
+            android:drawableTop="@drawable/sl_footer_main_join"
+            style="@style/commonRadioButtonTheme"
+            android:text="@string/main_to_join" />
+
+        <RadioButton
+            android:id="@+id/rb_fragment_station"
+            android:drawableTop="@drawable/sl_footer_main_station"
+            style="@style/commonRadioButtonTheme"
+            android:text="@string/main_station" />
+
+
+        <RadioButton
+            android:id="@+id/rb_cfragment_mine"
+            android:drawableTop="@drawable/sl_footer_main_mine"
+            style="@style/commonRadioButtonTheme"
+            android:text="@string/main_mine" />
+    </RadioGroup>
+   </LinearLayout>
+</LinearLayout>

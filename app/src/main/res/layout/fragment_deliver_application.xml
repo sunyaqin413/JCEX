@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/commonLayoutViewTheme"
+    android:orientation="vertical">
+
+    <include layout="@layout/activity_common_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <!--提货地址-->
+            <RelativeLayout
+                android:id="@+id/rl_select_address"
+                style="@style/mineOrderEditLvTheme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/home_pick_up_address" />
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    style="@style/mineCreateTextTheme01"
+                    android:layout_marginTop="8dp"
+                    android:hint="@string/home_pick_up_address_hint" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@mipmap/mine_go" />
+            </RelativeLayout>
+
+            <View style="@style/commonHorizontalViewTheme" />
+            <!--总袋数-->
+            <RelativeLayout
+
+                style="@style/mineOrderEditLvTheme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_marginTop="8dp"
+                    android:background="@null"
+                    android:text="@string/home_pick_up_bags" />
+
+                <EditText
+                    android:id="@+id/et_bags"
+                    style="@style/mineCreateTextTheme01"
+                    android:layout_marginTop="8dp"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:background="@null"
+                    android:hint="@string/home_pick_up_bags_hint" />
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_marginRight="16dp"-->
+                    <!--android:background="@mipmap/mine_go" />-->
+            </RelativeLayout>
+
+            <View style="@style/commonHorizontalViewTheme" />
+            <!--总重量-->
+            <RelativeLayout
+
+                style="@style/mineOrderEditLvTheme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/home_pick_up_weight" />
+
+                <EditText
+                    android:id="@+id/et_weight"
+                    style="@style/mineCreateTextTheme01"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@null"
+                    android:hint="@string/home_pick_up_weight_hint"
+                    android:imeOptions="actionNext"
+                    android:inputType="number" />
+            </RelativeLayout>
+
+            <View style="@style/commonHorizontalViewTheme" />
+
+
+            <!--提货时间-->
+            <RelativeLayout
+                android:id="@+id/rl_select_time"
+                style="@style/mineOrderEditLvTheme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/home_pick_up_time" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    style="@style/mineCreateTextTheme01"
+                    android:layout_marginTop="8dp"
+                    android:hint="@string/home_pick_up_time_hint" />
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:background="@mipmap/mine_go" />
+            </RelativeLayout>
+
+            <View style="@style/commonHorizontalViewTheme" />
+
+
+            <Button
+                android:id="@+id/btn_submit"
+                style="@style/CommonSubmitBtnTheme"
+                android:layout_marginTop="30dp"
+                android:padding="6dp"
+                android:text="@string/home_pick_up_submit" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

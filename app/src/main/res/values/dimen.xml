@@ -1,0 +1,37 @@
+<resources>
+    <!--标题字体 -->
+    <dimen name="word_title">20sp</dimen>
+    <!--副标题字体 返回 保存-->
+    <dimen name="word_sub_title">16sp</dimen>
+    <!--内容 主题 -->
+    <dimen name="word_them_main">18sp</dimen>
+    <!--详情内容 通用字体-->
+    <dimen name="word_them_ordinary">14sp</dimen>
+    <!--内容小字体-->
+    <dimen name="word_them_little">10sp</dimen>
+    <dimen name="word_them_least">12sp</dimen>
+    <!--最小-->
+    <dimen name="word_them_small">13sp</dimen>
+    <!--btn 的字体大小-->
+    <dimen name="word_them_btn">18sp</dimen>
+
+    <!-- 内容距手机边框的边距 -->
+    <dimen name="content_padding_right">8dp</dimen>
+    <dimen name="content_padding_left">8dp</dimen>
+    <dimen name="content_padding_top">8dp</dimen>
+    <dimen name="content_padding_bottom">8dp</dimen>
+
+    <dimen name="common_item_text">45dp</dimen>
+    <dimen name="common_header_bar">50dp</dimen>
+    <dimen name="common_item_height">70dp</dimen>
+    <!--底部高度-->
+    <dimen name="common_bottom_bar">52dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--SAlert样式-->
+    <dimen name="alert_width">280dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+</resources>

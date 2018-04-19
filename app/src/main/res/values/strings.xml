@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">佳成国际</string>
+    <!--共同-->
+    <string name="common_edit">编辑</string>
+    <string name="common_back">返回</string>
+    <string name="common_save">确 定</string>
+    <string name="common_saved">确 认</string>
+    <string name="common_select">选取</string>
+    <string name="common_cancel">取消</string>
+    <string name="common_delete">删除</string>
+    <string name="common_next">下一步</string>
+    <string name="common_all">全部</string>
+    <string name="common_send">发送</string>
+    <string name="common_search">搜索</string>
+    <string name="common_loading_data">正在努力获取数据…</string>
+    <string name="common_update_data">加载中...</string>
+    <string name="common_submit_data">正在提交数据…</string>
+    <string name="common_uploading">正在上传...</string>
+    <string name="common_data_no">暂无信息</string>
+    <string name="common_un_set">未设置</string>
+    <string name="common_unknown">未知</string>
+    <string name="common_sex_male">男</string>
+    <string name="common_sex_female">女</string>
+    <string name="common_agree">同 意</string>
+    <string name="common_refuse">拒绝</string>
+    <string name="common_prompt">提示</string>
+    <string name="common_confirm">确定</string>
+    <string name="common_i_know">我知道了</string>
+    <string name="common_know">知道了</string>
+    <string name="common_show_home_page">查看主页</string> 
+    <string name="common_show_scan">点击查看二维码</string> 
+    <string name="common_expand_more">点击展开更多</string> 
+    <string name="common_pack_up_more">点击收起更多</string> 
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading...</string>
+    <!--登录-->
+    <string name="login_name">用户名</string>
+    <string name="login_password">密码</string>
+    <string name="login">登 录</string>
+    <string name="login_input_name">请输入工信号或身份证号或手机号</string>
+    <string name="login_input_password">请输入密码</string>
+    <string name="login_input_password_show">显示密码</string>
+    <string name="login_register_title">没有账号？</string>
+    <string name="login_register">注册账号</string>
+    <string name="login_forget_password">忘记密码</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_failure">用户名或密码不正确，请重新输入</string>
+    <!-- 注册 -->
+    <string name="register">注册</string>
+    <string name="register_input_phone">请输入手机号</string>
+    <string name="register_input_password">请输入6-20位密码</string>
+    <string name="register_input_password_re">请再次输入密码</string>
+    <string name="register_reader">我已阅读并同意</string>
+    <string name="register_reader2"><u>免责条款</u></string>
+    <string name="register_sms_editor">请输入短信验证码</string>
+    <string name="register_sms_send_success">发送短信验证码成功</string>
+    <string name="register_sms_get">获取验证码</string>
+    <string name="register_get_random_id">随机获取</string>
+    <string name="register_sms_getting">秒后重新获取验证码</string>
+    <string name="register_sms_phone_num_after">发送验证码</string>
+    <string name="register_success">注册成功</string>
+    <!--忘记密码-->
+    <string name="forget_password"><u>找回密码</u></string>
+    <string name="forget_password_input_sms">请输入短信验证码</string>
+    <string name="forget_password_get_sms">获取验证码</string>
+    <string name="forget_password_input_new_psd">请输入新密码</string>
+    <string name="forget_password_input_new_psd_re">重复输入密码</string>
+    <string name="forget_password_next">下一步</string>
+    <string name="forget_password_cannot_get_user">用户不存在，请重新输入</string>
+    <string name="forget_password_not_send_verification_code">手机收不到短信验证码？</string>
+    <!--主页-->
+    <string name="main_home_page">首页</string>
+    <string name="main_to_join">加盟</string>
+    <string name="main_station">站点</string>
+    <string name="main_mine">我的</string>
+    <!--首页-->
+    <string name="home_forecast_order">预报订单</string>
+    <string name="home_price_for_trial">价格试算</string>
+    <string name="home_remote_query">偏远查询</string>
+    <string name="home_pick_up">提货申请</string>
+    <string name="home_exception_order">异常订单</string>
+    <string name="home_order_tracking">订单跟踪</string>
+    <string name="home_online_payment">在线支付</string>
+    <string name="home_my_pay">我的费用</string>
+    <!--预报订单-->
+    <string name="home_forecast_order_single">单票预报</string>
+    <string name="home_forecast_order_multi">批量导入</string>
+    <string name="home_forecast_order_destination">目的地</string>
+    <string name="home_forecast_order_destination_hint">请选择目的地</string>
+    <string name="home_forecast_order_transport_mode">运输方式</string>
+    <string name="home_forecast_order_transport_mode_hint">请选择运输方式</string>
+    <string name="home_forecast_order_weight">实际重量</string>
+    <string name="home_forecast_order_volume">体积</string>
+    <string name="home_forecast_order_number">参考单号</string>
+    <string name="home_forecast_order_type"> 类型</string>
+    <string name="home_forecast_order_type_hint"> 请选择类型</string>
+    <string name="home_forecast_order_name_edit"> 请输入品名</string>
+    <string name="home_forecast_order_price_edit"> 请输入单价(USD)</string>
+    <string name="home_forecast_order_number_etit"> 请输入数量</string>
+    <string name="home_forecast_order_add_info"> 添加申报信息</string>
+    <string name="home_forecast_order_apply"> 立即申报</string>
+    <string name="home_forecast_order_save"> 存为草稿</string>
+    <string name="home_forecast_order_country_hint"> 请输入国家名称</string>
+    <string name="home_forecast_order_select_country"> 选择国家站点</string>
+    <string name="home_forecast_order_select_type"> 选择包裹类型</string>
+    <!--价格试算-->
+    <string name="home_price_for_trial_submit"> 立即查询</string>
+    <string name="home_price_for_trial_destination">国家</string>
+    <string name="home_price_for_trial_package_type">包裹类型</string>
+    <string name="home_price_for_trial_package_size">尺寸</string>
+    <string name="home_price_for_trial_package_weight">重量</string>
+    <string name="home_price_for_trial_package_type_hint">请选择包裹类型</string>
+    <!--偏远查询-->
+    <string name="home_remote_class">偏远种类</string>
+    <string name="home_remote_class_hint">请选择偏远种类</string>
+    <string name="home_remote_postcode">邮编</string>
+    <string name="home_remote_postcode_hint">请输入邮编</string>
+    <string name="home_remote_address">地址</string>
+    <string name="home_remote_address_hint">请输入地址</string>
+    <string name="home_remote_country_hint">请选择国家</string>
+    <!--提货申请-->
+    <string name="home_pick_up_submit">立即提交</string>
+    <string name="home_pick_up_address">提货地址</string>
+    <string name="home_pick_up_address_hint">请选择提货地址</string>
+    <string name="home_pick_up_bags">总袋数</string>
+    <string name="home_pick_up_bags_hint">请输入总袋数</string>
+    <string name="home_pick_up_weight">总重量</string>
+    <string name="home_pick_up_weight_hint">请输入总重量</string>
+    <string name="home_pick_up_time">提货时间</string>
+    <string name="home_pick_up_time_hint">请选择提货时间</string>
+    <!--加盟-->
+    <string name="join_to">我要加盟</string>
+    <string name="join_to_jcex">加盟佳成国际</string>
+    <string name="join_to_jcex_request">加盟意向表</string>
+    <!--站点-->
+    <string name="station_jcex">佳成站点</string>
+    <string name="station_china">国内站点</string>
+    <string name="station_foreign">国外站点</string>
+    <string name="station_search_address">输入地点进行搜索</string>
+    <!--我的-->
+    <string name="mine_order">我的运单</string>
+    <string name="mine_order_forecast">待预报</string>
+    <string name="mine_order_record">物流追踪</string>
+    <string name="mine_order_pay">我的费用</string>
+    <string name="mine_pick_record">提货记录</string>
+    <string name="mine_order_address">地址簿</string>
+    <string name="mine_order_more">查看更多订单</string>
+    <string name="mine_service_online">在线客服</string>
+    <string name="mine_service_hotline">客服热线:</string>
+    <string name="mine_sales_hotline">销售热线:</string>
+    <!--设置-->
+    <string name="mine_setting">设置</string>
+</resources>

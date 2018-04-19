@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff9702</color>
+    <color name="colorPrimaryDark">#ff9702</color>
+    <color name="colorAccent">#ff9702</color>
+
+    <!--标题 蓝色-->
+    <color name="title_bg_blue">#3EA2E8</color>
+    <color name="title_bg_white">#FFFFFF</color>
+    <color name="title_word_back">#323232</color>
+    <!--分割线 灰色-->
+    <color name="line_grey">#e5e5e5</color>
+    <!--分割线 蓝色-->
+    <color name="line_blue">#3EA2E8</color>
+    <!--字体颜色-->
+    <!--  字体 蓝色-->
+    <color name="word_blue">#207bfa</color>
+    <!-- 字体 白色-->
+    <color name="word_white">#FFFFFF</color>
+    <!-- 字体 黑色 标题 正文-->
+    <color name="word_black">#4c4c4c</color>
+    <!-- 字体 灰色 二级标题-->
+    <color name="word_grey">#808080</color>
+    <!--icon切换-->
+    <color name="icon_grey">#666666</color>
+    <!--提示类文字-->
+    <color name="text_grey">#b8b8b8</color>
+
+    <!-- 字体 绿色-->
+    <color name="word_green">#05be83</color>
+    <!-- 字体 紫色-->
+    <color name="word_purple">#5b31e1</color>
+    <!-- 字体 红色-->
+    <color name="word_red">#e14521</color>
+    <!-- 字体 橙色-->
+    <color name="word_orange">#ff9702</color>
+    <!--标签栏背景-->
+    <color name="context_bg">#f5f5f5</color>
+    <!--内容背景默认-->
+    <color name="content_bg_while">#e5e5e5</color>
+
+    <!--透明色-->
+    <color name="transparent">#80000000</color>
+    <!--按钮可用状态背景色-->
+    <color name="common_btn_normal">#3EA2E8</color>
+    <color name="common_btn_press">#FF3B98DB</color>
+
+    <!--SAlert颜色-->
+    <color name="float_transparent">#00000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+    <color name="text_color">#575757</color>
+    <color name="material_blue_grey_80">#ff37474f</color>
+    <color name="material_blue_grey_90">#ff263238</color>
+    <color name="material_blue_grey_95">#ff21272b</color>
+    <color name="material_deep_teal_20">#ff80cbc4</color>
+    <color name="material_deep_teal_50">#ff009688</color>
+</resources>

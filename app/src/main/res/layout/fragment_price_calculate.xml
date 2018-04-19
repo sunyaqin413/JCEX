@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/commonLayoutViewTheme"
+    android:orientation="vertical">
+    <include layout="@layout/activity_common_header" />
+    <View style="@style/commonHorizontalViewTheme" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <!--目的地-->
+            <RelativeLayout
+                android:id="@+id/rl_select_destination"
+                style="@style/mineOrderEditLvTheme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/home_price_for_trial_destination" />
+
+                <TextView
+                    android:id="@+id/tv_destination"
+                    style="@style/mineCreateTextTheme01"
+                    android:layout_marginTop="8dp"
+                    android:hint="@string/home_forecast_order_destination_hint" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@mipmap/mine_go" />
+            </RelativeLayout>
+
+            <View style="@style/commonHorizontalViewTheme" />
+            <!--重量-->
+            <RelativeLayout
+                android:id="@+id/rl_select_weight"
+                style="@style/mineOrderEditLvTheme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/home_price_for_trial_package_weight" />
+
+                <EditText
+                    android:id="@+id/tv_weight"
+                    style="@style/mineCreateTextTheme01"
+                    android:layout_marginTop="8dp"
+                    android:background="@null"
+                    android:imeOptions="actionNext"
+                    android:inputType="number" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@mipmap/mine_go" />
+            </RelativeLayout>
+
+            <View style="@style/commonHorizontalViewTheme" />
+            <!--尺寸-->
+            <RelativeLayout
+                style="@style/mineOrderEditLvTheme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/home_price_for_trial_package_size" />
+
+                <EditText
+                    android:id="@+id/tv_volume"
+                    style="@style/mineCreateTextTheme01"
+                    android:layout_marginTop="8dp"
+                    android:background="@null"
+                    android:imeOptions="actionNext"
+                    android:inputType="number" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:text="xx长xx宽xx高" />
+            </RelativeLayout>
+
+            <View style="@style/commonHorizontalViewTheme" />
+
+            <!--类型-->
+            <RelativeLayout
+                android:id="@+id/rl_select_type"
+                style="@style/mineOrderEditLvTheme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/home_price_for_trial_package_type" />
+
+                <TextView
+                    android:id="@+id/tv_type"
+                    style="@style/mineCreateTextTheme01"
+                    android:layout_marginTop="8dp"
+                    android:hint="@string/home_price_for_trial_package_type_hint" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@mipmap/mine_go" />
+            </RelativeLayout>
+
+            <View style="@style/commonHorizontalViewTheme" />
+
+            <TextView
+                style="@style/OrdinaryBlackTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="6dp"
+                android:text="额外服务" />
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:descendantFocusability="blocksDescendants"
+                   android:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycleView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+               </RelativeLayout>
+            <Button
+                android:id="@+id/btn_submit"
+                style="@style/CommonSubmitBtnTheme"
+                android:layout_marginTop="30dp"
+                android:padding="6dp"
+                android:text="@string/home_price_for_trial_submit" />
+
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>

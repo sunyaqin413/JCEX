@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/commonLayoutViewTheme"
+    android:orientation="vertical">
+
+    <include layout="@layout/activity_common_header" />
+    <View style="@style/commonHorizontalViewTheme" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <!--偏远种类-->
+            <RelativeLayout
+                android:id="@+id/rl_select_class"
+                style="@style/mineOrderEditLvTheme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/home_remote_class" />
+
+                <TextView
+                    android:id="@+id/tv_remote_class"
+                    style="@style/mineCreateTextTheme01"
+                    android:layout_marginTop="8dp"
+                    android:hint="@string/home_remote_class_hint" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@mipmap/mine_go" />
+            </RelativeLayout>
+
+            <View style="@style/commonHorizontalViewTheme" />
+            <!--国家-->
+            <RelativeLayout
+                android:id="@+id/rl_select_country"
+                style="@style/mineOrderEditLvTheme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/home_price_for_trial_destination" />
+
+                <TextView
+                    android:id="@+id/tv_destination"
+                    style="@style/mineCreateTextTheme01"
+                    android:layout_marginTop="8dp"
+                    android:hint="@string/home_remote_country_hint" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:background="@mipmap/mine_go" />
+            </RelativeLayout>
+
+            <View style="@style/commonHorizontalViewTheme" />
+            <!--邮编-->
+            <RelativeLayout
+
+                style="@style/mineOrderEditLvTheme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/home_remote_postcode" />
+
+                <EditText
+                    android:id="@+id/et_postcode"
+                    style="@style/mineCreateTextTheme01"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@null"
+                    android:hint="@string/home_remote_postcode_hint"
+                    android:imeOptions="actionNext"
+                    android:inputType="number" />
+            </RelativeLayout>
+
+            <View style="@style/commonHorizontalViewTheme" />
+
+
+            <!--地址-->
+            <RelativeLayout
+                style="@style/mineOrderEditLvTheme"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    style="@style/OrdinaryBlackTextTheme"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/home_remote_address" />
+
+                <EditText
+                    android:id="@+id/et_address"
+                    style="@style/mineCreateTextTheme01"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@null"
+                    android:hint="@string/home_remote_address_hint"
+                    android:imeOptions="actionNext" />
+
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginRight="16dp"-->
+                <!--android:background="@mipmap/mine_go" />-->
+            </RelativeLayout>
+
+            <View style="@style/commonHorizontalViewTheme" />
+
+
+            <Button
+                android:id="@+id/btn_submit"
+                style="@style/CommonSubmitBtnTheme"
+                android:layout_marginTop="30dp"
+                android:padding="6dp"
+                android:text="@string/home_price_for_trial_submit"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

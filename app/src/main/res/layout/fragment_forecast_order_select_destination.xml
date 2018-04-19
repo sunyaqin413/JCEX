@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    style="@style/commonLayoutViewTheme"
+    android:layout_height="match_parent">
+  <include layout="@layout/activity_common_header"/>
+    <View
+       style="@style/commonHorizontalViewTheme"/>
+    <include layout="@layout/station_search_title"
+      />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <!--国家-->
+        <TextView
+            android:id="@+id/tv_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/OrdinaryBlackTextTheme"
+            android:text="美国"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/OrdinaryBlackTextTheme"
+            android:layout_marginLeft="4dp"
+            android:text=">"/>
+        <!--城市-->
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/OrdinaryBlackTextTheme"
+            android:layout_marginLeft="4dp"
+            android:text="华盛顿"/>
+    </LinearLayout>
+    <View
+        style="@style/commonHorizontalViewTheme"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/recycleView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+        <cn.jcex.view.QuickSearchView
+            android:id="@+id/quick_view"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>

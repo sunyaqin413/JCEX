@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/title_bg_white"
+    android:layout_height="@dimen/common_header_bar">
+
+    <TextView
+        android:id="@+id/tv_left"
+        style="@style/OrdinaryBlackTextTheme"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp"
+        android:visibility="gone"
+        android:background="@mipmap/btn_nav_return" />
+
+    <TextView
+        android:id="@+id/tv_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/word_title"
+        android:textColor="@color/word_black"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/tv_right"
+        style="@style/OrdinaryBlackTextTheme"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:visibility="gone"
+        android:textColor="@color/word_black"
+        android:text="@string/common_save" />
+    <ImageView
+        android:id="@+id/iv_top_scan"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="18dp"
+        android:src="@mipmap/top_right_scan"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp" />
+</RelativeLayout>
